@@ -21,7 +21,7 @@ export default function Home() {
   // console.log();
   // socket.sendMessage("hello");
   const socket = useMemo(
-    () => new WebSocket("ws://172.105.250.249:3030/chat"),
+    () => new WebSocket("wss://chat.chloevision.com:3030/chat"),
     []
   );
 
